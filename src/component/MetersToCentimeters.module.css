@@ -1,0 +1,52 @@
+header {
+  background-color: coral;
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+.container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.wrapper {
+  max-width: 60%;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  font-size: 0.75rem;
+}
+input[type="text"] {
+  width: 200px;
+  height: 40px;
+  outline: none;
+}
+.btns {
+  margin-top: 1rem;
+  text-align: center;
+}
+button {
+  border: 0;
+  width: 80px;
+  margin: 0 0.5rem;
+  padding: 0.5rem 0;
+}
+.inverse {
+  background-color: transparent;
+  border: 1px solid coral;
+  color: coral;
+  text-shadow: 0 0 1px black;
+}
+.reset {
+  background-color: coral;
+  border: 1px solid transparent;
+  color: white;
+}
