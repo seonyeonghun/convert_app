@@ -8,3 +8,6 @@
 - git / github
 - react
 - html/css/javascript
+
+# status
+100% 완료 후 내용 개선에정
